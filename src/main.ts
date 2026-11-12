@@ -1,12 +1,12 @@
 import './style.css'
-import './bases/09-promises.ts'
+import './bases/11-async-await'
 
-import {getHeroesByOwner } from './bases/08-imp-exp'
+// import {getHeroesByOwner } from './bases/08-imp-exp'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div>
-  <h1>Vite</h1>
+  <h1>Hola Mundo</h1>
 </div>
 `
-console.log(getHeroesByOwner('DC'))
+// console.log(getHeroesByOwner('DC'))
